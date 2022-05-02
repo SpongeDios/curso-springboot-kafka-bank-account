@@ -21,10 +21,10 @@ public class AccountCmdApplication {
 
     @PostConstruct
     public void registerHandlers(){
-        commandDispatcher.registerHandler(OpenAccountCommand.class, command -> commandHandler.handle((OpenAccountCommand) command));
-        commandDispatcher.registerHandler(DepositFundsCommand.class, command -> commandHandler.handle((DepositFundsCommand) command));
-        commandDispatcher.registerHandler(WithdrawFundsCommand.class, command -> commandHandler.handle((WithdrawFundsCommand) command));
-        commandDispatcher.registerHandler(CloseAccountCommand.class, command -> commandHandler.handle((CloseAccountCommand) command));
+        commandDispatcher.registerHandler(OpenAccountCommand.class, commandHandler::handle);
+        commandDispatcher.registerHandler(DepositFundsCommand.class, commandHandler::handle);
+        commandDispatcher.registerHandler(WithdrawFundsCommand.class, commandHandler::handle);
+        commandDispatcher.registerHandler(CloseAccountCommand.class, commandHandler::handle);
 
     }
 

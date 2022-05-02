@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14cf0095-b472-4889-b834-1af8f53dab0f" name="Changes" comment="" />
+    <list default="true" id="14cf0095-b472-4889-b834-1af8f53dab0f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/AccountCmdApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/AccountCmdApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/api/command/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/api/command/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/infrastructure/AccountCommandDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/infrastructure/AccountCommandDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-query/src/main/java/com/banking/account/query/infrastructure/handlers/AccountEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-query/src/main/java/com/banking/account/query/infrastructure/handlers/AccountEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs-core/src/main/java/com/banking/cqrs/core/commands/CommandHandlerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cqrs-es/cqrs-core/src/main/java/com/banking/cqrs/core/commands/CommandHandlerMethod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -44,6 +54,7 @@
     </option>
   </component>
   <component name="ProjectId" id="28XI0S53mS8vft5bVYhnJ0PAs6l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/account-query/target/account-query-1.0.0.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/final-section-java/banking-account" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,7 +83,7 @@
       <recent name="E:\Esponja\_git\curso-springboot-kafka\microservices\banking-account\account-query\src\main\java\com\banking\account\query" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountQueryApplication">
+  <component name="RunManager" selected="Spring Boot.AccountCmdApplication (1)">
     <configuration name="JAR" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/account-query/target/account-query-1.0.0.jar" />
       <option name="WORKING_DIRECTORY" value="E:\Esponja\_git\curso-springboot-kafka\microservices\banking-account" />
@@ -127,6 +138,9 @@
       <updated>1651356282129</updated>
       <workItem from="1651356283242" duration="16516000" />
       <workItem from="1651412232196" duration="18473000" />
+      <workItem from="1651443366191" duration="22000" />
+      <workItem from="1651444123472" duration="13253000" />
+      <workItem from="1651490200219" duration="3839000" />
     </task>
     <servers />
   </component>
@@ -140,6 +154,21 @@
           <url>file://$PROJECT_DIR$/account-common/src/main/java/com/banking/account/common/events/FundsDepositedEvent.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-command/src/main/java/com/banking/account/cmd/domain/AccountAggregate.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-query/src/main/java/com/banking/account/query/infrastructure/consumers/AccountEventConsumer.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-query/src/main/java/com/banking/account/query/infrastructure/handlers/AccountEventHandler.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

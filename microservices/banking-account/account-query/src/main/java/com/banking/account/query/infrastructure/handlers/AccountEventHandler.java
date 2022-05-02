@@ -50,7 +50,7 @@ public class AccountEventHandler implements EventHandler{
             return;
 
         double currentBalance = bankAccount.get().getBalance();
-        double latestBalance = currentBalance + event.getAmount();
+        double latestBalance = currentBalance - event.getAmount();
         bankAccount.get().setBalance(latestBalance);
         accountRepository.save(bankAccount.get());
     }

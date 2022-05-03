@@ -30,8 +30,8 @@ services:
     environment:
       MYSQL_DATABASE: 'db'
       MYSQL_USER: 'spongeboss'
-      MYSQL_PASSWORD: '7914753hH!!'
-      MYSQL_ROOT_PASSWORD: '7914753hH!!'
+      MYSQL_PASSWORD: 'ANY_CREDENTIALS'
+      MYSQL_ROOT_PASSWORD: 'ANY_CREDENTIALS'
     ports:
       - '3306:3306'
     expose:
@@ -43,7 +43,7 @@ services:
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: "root"
-      MONGO_INITDB_ROOT_PASSWORD: "7914753hH!!"
+      MONGO_INITDB_ROOT_PASSWORD: "ANY_CREDENTIALS"
     ports:
       - 27017:27017
     volumes:
